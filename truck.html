@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2011 Ford F-350 For Sale</title>
+    <style>
+        /* Basic Reset and Body Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: skyblue; /* Changed background to sky blue */
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow for "flashy" effect */
+            border: 1px solid #ddd;
+        }
+
+        /* Header Styles */
+        h1 {
+            color: #0056b3; /* A strong blue */
+            text-align: center;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        .price {
+            font-size: 2.5em;
+            color: #28a745; /* Green for price */
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        /* Image Gallery Styles */
+        .gallery-wrapper {
+            position: relative;
+            width: 100%;
+            max-width: 800px; /* Max width for gallery */
+            margin: 20px auto;
+            overflow: hidden; /* Hide extra images */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-images {
+            display: flex; /* Arrange images in a row */
+            transition: transform 0.5s ease-in-out; /* Smooth scrolling effect */
+            height: 225px; /* Set a consistent height for the flex container */
+            align-items: center; /* Vertically center items */
+             /* Add background to see the "contain" space */
+            background-color: #eee; /* Optional: Add background to see letterboxing space */
+        }
+
+        /* Style the links wrapping the images */
+        .gallery-images a {
+            width: 100%; /* Each link/image container takes full width of the wrapper */
+            height: 100%; /* Each link/image container takes full height */
+            flex-shrink: 0; /* Prevent links from shrinking */
+            display: block; /* Ensure the link fills the space */
+            text-decoration: none; /* Remove underline from link */
+            text-align: center; /* Center the image horizontally if it doesn't fill width */
+        }
+
+
+        .gallery-images img {
+            /* Set height and width to 100% of their parent (the <a> tag),
+               and use object-fit to maintain aspect ratio */
+            height: 100%; /* Image takes full height of its container (the <a>) */
+            width: 100%; /* Image takes full width of its container (the <a>) */
+            display: block; /* Remove extra space below image */
+            /* Changed object-fit to contain to show the whole image */
+            object-fit: contain; /* Shows the entire image while maintaining aspect ratio */
+        }
+
+        .gallery-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 1.5em;
+            border-radius: 5px;
+            z-index: 10; /* Ensure buttons are above images/links */
+            transition: background-color 0.3s ease;
+            user-select: none; /* Prevent text selection */
+        }
+
+        .gallery-button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+         .gallery-button:active {
+            background-color: rgba(0, 0, 0, 0.9); /* Darker on click */
+        }
+
+
+        .prev-button {
+            left: 10px;
+        }
+
+        .next-button {
+            right: 10px;
+        }
+
+        /* Section Styling */
+        section {
+            background-color: #f8f9fa; /* Light grey background */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: 1px solid #eee;
+        }
+
+        h2 {
+            color: #007bff; /* A standard blue */
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: none; /* Remove default bullets */
+            padding: 0;
+        }
+
+        ul li {
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5" fill="%23007bff"/></svg>') no-repeat left center; /* Custom blue dot */
+            background-size: 8px 8px;
+            padding-left: 20px; /* Space for the custom bullet */
+            margin-bottom: 8px;
+        }
+
+        .notes {
+            font-style: italic;
+            color: #dc3545; /* Red for warnings/notes */
+            border: 1px dashed #dc3545;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        /* Footer/Contact Info */
+        .contact-info {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #555;
+        }
+
+        .contact-info p {
+            margin-bottom: 5px;
+        }
+
+        .contact-info strong {
+            color: #333;
+        }
+
+         .contact-details {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #0056b3; /* Match header color */
+            margin-top: 15px;
+        }
+         .contact-details a {
+             color: #0056b3;
+             text-decoration: none;
+         }
+         .contact-details a:hover {
+             text-decoration: underline;
+         }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>2011 Ford F-350 Crew Pickup Truck 4x4</h1>
+            <div class="price">$14,000</div>
+        </header>
+
+        <div class="gallery-wrapper">
+            <div class="gallery-images">
+                <a href="1.jpg" target="_blank"><img src="1.jpg" alt="Truck Image 1"></a>
+                 <a href="2.jpg" target="_blank"><img src="2.jpg" alt="Truck Image 2"></a>
+                 <a href="3.jpg" target="_blank"><img src="3.jpg" alt="Truck Image 3"></a>
+                 <a href="4.jpg" target="_blank"><img src="4.jpg" alt="Truck Image 4"></a>
+                 <a href="5.jpg" target="_blank"><img src="5.jpg" alt="Truck Image 5"></a>
+                 <a href="6.jpg" target="_blank"><img src="6.jpg" alt="Truck Image 6"></a>
+                 <a href="7.jpg" target="_blank"><img src="7.jpg" alt="Truck Image 7"></a>
+                 <a href="8.jpg" target="_blank"><img src="8.jpg" alt="Truck Image 8"></a>
+                 <a href="9.jpg" target="_blank"><img src="9.jpg" alt="Truck Image 9"></a>
+                 <a href="10.jpg" target="_blank"><img src="10.jpg" alt="Truck Image 10"></a>
+            </div>
+            <button class="gallery-button prev-button">&#10094;</button> <button class="gallery-button next-button">&#10095;</button> </div>
+        <main>
+            <section>
+                <h2>About this vehicle</h2>
+                <p>Driven 155,000 miles</p>
+                <p>Automatic transmission</p>
+                <p>Exterior color: White · Interior color: Grey</p>
+                <p>Fuel type: Flex</p>
+            </section>
+
+            <section>
+                <h2>Seller's description</h2>
+                <p>2011 FORD F350 SUPER DUTY is ready for a new owner! It recently had a transmission and front end replaced. Title free and clear.</p>
+            </section>
+
+            <section>
+                <h2>Key Details & Features</h2>
+                <ul>
+                    <li>Clean CARFAX History: No accidents or damage reported to CARFAX and no odometer rollback issues found.</li>
+                    <li>Powerful 6.2-liter V8 engine.</li>
+                    <li>4-wheel drive (4WD).</li>
+                    <li>Convenient backup camera.</li>
+                    <li>Equipped with a fifth wheel hitch.</li>
+                    <li>New Tires.</li>
+                    <li>New radiator.</li>
+                    <li>The AC has a new compressor but needs a leak repaired.</li>
+                </ul>
+            </section>
+
+            <section class="notes">
+                <p><strong>Please Note:</strong> This truck has a dent on the front right fender and a noticeable scrape on the back passenger door. These are cosmetic imperfections, but the truck runs well and is mechanically solid with the recent major repairs. It has a startup failure alarm that clears due to an issue with TPS sensors.</p>
+            </section>
+        </main>
+
+        <div class="contact-info">
+            <p>Asking <strong>$14,000 or best offer</strong>.</p>
+            <p>Located in South Beloit, IL.</p>
+            <div class="contact-details">
+                 Contact Brad @ <a href="tel:+16087516459">608-751-6459</a> or <a href="mailto:bradperryx@gmail.com">bradperryx@gmail.com</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const galleryImages = document.querySelector('.gallery-images');
+            // Select the links instead of images for count
+            const imageLinks = galleryImages.querySelectorAll('a');
+            const prevButton = document.querySelector('.prev-button');
+            const nextButton = document.querySelector('.next-button');
+            let currentIndex = 0;
+            const totalImages = imageLinks.length; // Use the count of links
+
+            const galleryWrapper = document.querySelector('.gallery-wrapper');
+            // Get the width of the wrapper to calculate transform offset
+            let wrapperWidth = galleryWrapper.offsetWidth;
+
+            function updateGallery() {
+                // Calculate offset based on wrapper width, as each link/image fills the wrapper's width
+                const offset = -currentIndex * wrapperWidth;
+                galleryImages.style.transform = `translateX(${offset}px)`;
+            }
+
+             // Recalculate width and update on window resize
+            window.addEventListener('resize', () => {
+                 wrapperWidth = galleryWrapper.offsetWidth; // Update wrapper width on resize
+                 const offset = -currentIndex * wrapperWidth;
+                 galleryImages.style.transition = 'none'; // Disable transition during resize
+                 galleryImages.style.transform = `translateX(${offset}px)`;
+                 // Re-enable transition after a brief moment
+                 setTimeout(() => {
+                     galleryImages.style.transition = 'transform 0.5s ease-in-out';
+                 }, 50);
+            });
+
+
+            prevButton.addEventListener('click', () => {
+                currentIndex = (currentIndex === 0) ? totalImages - 1 : currentIndex - 1;
+                updateGallery();
+            });
+
+            nextButton.addEventListener('click', () => {
+                currentIndex = (currentIndex === totalImages - 1) ? 0 : currentIndex + 1;
+                updateGallery();
+            });
+
+            // Initial display - ensure wrapperWidth is correct on load
+            wrapperWidth = galleryWrapper.offsetWidth;
+            updateGallery();
+        });
+    </script>
+
+</body>
+</html>
